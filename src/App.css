@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.col-mid-3{
+  height:350px;
+  width:350px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .outerclass{
+  display:flex;
+  justify-content: space-between;
+  flex-flow:row wrap;
+} */
+
+.col-mid-33{
+  text-align:center;
+}
+.outerclass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.innerclass {
+  display: flex;
+}
+
+.innerclass p {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333; /* Adjust the margin as needed for space between the p elements */
+}
+.innerclass p:hover{
+  color:red;
+}
+
+/* Optional: Style h2 for better appearance */
+h2 {
+  margin: 0; /* Remove default margin */
+}
+
+
